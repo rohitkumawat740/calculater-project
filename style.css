@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #8f9fbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 350px;
+    height: 520px;
+    background: rgb(4, 9, 36);
+    box-shadow: 0 0 20px whitesmoke;
+    border-radius: 10px;
+}
+input{
+    width: 320px;
+    padding: 10px;
+    background: transparent;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: right;
+    color: white;
+    margin-top: 25px;
+     
+}
+input::placeholder{
+    color: white;
+}
+button{
+    border: none;
+    width: 53px;
+    height: 58px;
+    margin: 10px;
+    border-radius: 15%;
+    margin-left: 19px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.1),
+    4px 4px 12px rgba(0,0,0,0.6);
+}
+/*.button:active{
+    box-shadow: inset 2px 2px 6px rgba(0,0,0,0.5),
+    inset -2px -2px 6px rgba(255,255,255,0.05);
+}*/
+.ac{
+    color: rgb(7, 215, 7);
+}
+.del{
+    color: rgb(7, 215, 7);
+}
+.percent{
+    color: rgb(7, 215, 7);
+}
+.devide{
+    color: rgb(7, 215, 7);
+}
+.multiply{
+    color: rgb(7, 215, 7);
+}
+.subtract{
+    color: rgb(7, 215, 7);
+}
+.add{
+    color: rgb(7, 215, 7);
+}
+.equal{
+    background: rgb(225, 197, 11);
+}
+input::
